@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv("heartfailure.csv")
+data = pd.read_csv("heart_failure_clinical_records_dataset.csv")
 
 
 data.head()
