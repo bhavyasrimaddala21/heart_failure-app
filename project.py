@@ -16,6 +16,7 @@ from sklearn.metrics import accuracy_score
 
 data = pd.read_csv("heartfailure.csv")
 
+
 data.head()
 
 X = data.drop("DEATH_EVENT", axis=1)
